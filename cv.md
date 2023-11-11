@@ -67,3 +67,7 @@ console.log(result);
 - traine AI voice bots using DashaScript and Node.js;
 - help the development department with their routine tasks;
 
+## Languages
+
+- **English:** Pre-Intermediate
+- **Russian:** Native
