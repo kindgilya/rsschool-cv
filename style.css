@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
-
 :root {
   --color1: #060606;
   --color2: #282e3c;
@@ -7,33 +6,27 @@
   --color4: #9f9ed1;
   --color5: #dddbed;
 }
-
 html {
   box-sizing: border-box;
 }
-
 body {
   background-color: var(--color2);
 }
-
 *,
 *::before,
 *::after {
   box-sizing: inherit;
 }
-
 .body {
   font-family: "Roboto Mono", monospace;
   font-style: normal;
   font-size: 20px;
   line-height: 1.2;
 }
-
 .wrapper {
   max-width: 1060px;
   margin: 0 auto;
 }
-
 .header {
   top: 0;
   left: 0;
@@ -41,7 +34,6 @@ body {
   transition: 0.2s linear;
   padding-bottom: 20px;
 }
-
 .header-wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -49,32 +41,26 @@ body {
   justify-content: space-between;
   padding-top: 56px;
 }
-
 .header-list {
   display: flex;
   flex-wrap: wrap;
 }
-
 .header-item {
   margin-right: 82px;
 }
-
 .header-item:last-child {
   margin-right: 0;
 }
-
 .header-link {
   text-decoration: none;
   color: var(--color4);
   font-size: 20px;
 }
-
 .header-link:hover,
 .header-link:focus,
 .header-link:active {
   opacity: 75%;
 }
-
 .section-title {
   font-size: 35px;
   font-weight: 500;
@@ -99,7 +85,6 @@ body {
   margin: 0 auto;
   margin-top: auto;
 }
-
 .intro_wrap {
   margin-bottom: 139px;
   display: grid;
@@ -108,24 +93,20 @@ body {
   align-items: center;
   margin-bottom: 77px;
 }
-
 .introduction_title {
   margin-top: 52px;
   margin-bottom: 52px;
 }
-
 .introduction-desc {
   margin-bottom: 52px;
   color: var(--color5);
   font-size: 20px;
 }
-
 .cv_links-item {
   text-decoration: none;
   color: var(--color4);
   margin-bottom: 10px;
 }
-
 .cv_pic {
   margin-left: 30%;
 }
@@ -134,7 +115,6 @@ body {
   width: 180px;
   height: auto;
 }
-
 .skills-links {
   color: var(--color5);
   padding: 10px;
@@ -143,11 +123,9 @@ body {
   font-style: normal;
   margin-top: 20px;
 }
-
 .skills-li {
   padding: 5px;
 }
-
 .introduction-expirience {
   color: var(--color5);
   font-size: 20px;
