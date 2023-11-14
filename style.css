@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+:root {
+  --color1: #060606;
+  --color2: #282e3c;
+  --color3: #5c6483;
+  --color4: #9f9ed1;
+  --color5: #dddbed;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color2);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.body {
+  font-family: "Roboto Mono", monospace;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.wrapper {
+  max-width: 1060px;
+  margin: 0 auto;
+}
+
+.header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: 0.2s linear;
+  padding-bottom: 20px;
+}
+
+.header-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding-top: 56px;
+}
+
+.header-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header-item {
+  margin-right: 82px;
+}
+
+.header-item:last-child {
+  margin-right: 0;
+}
+
+.header-link {
+  text-decoration: none;
+  color: var(--color4);
+  font-size: 20px;
+}
+
+.header-link:hover,
+.header-link:focus,
+.header-link:active {
+  opacity: 75%;
+}
+
+.section-title {
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 42px;
+  position: relative;
+  padding-bottom: 10px;
+  color: var(--color4);
+}
+.section-title::after {
+  display: block;
+  content: "";
+  width: 253px;
+  height: 3px;
+  background-color: var(--color5);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.section-wrapper {
+  max-width: 1262px;
+  margin: 0 auto;
+  margin-top: auto;
+}
+
+.intro_wrap {
+  margin-bottom: 139px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 0 108px;
+  align-items: center;
+  margin-bottom: 77px;
+}
+
+.introduction_title {
+  margin-top: 52px;
+  margin-bottom: 52px;
+}
+
+.introduction-desc {
+  margin-bottom: 52px;
+  color: var(--color5);
+  font-size: 20px;
+}
+
+.cv_links-item {
+  text-decoration: none;
+  color: var(--color4);
+  margin-bottom: 10px;
+}
+
+.cv_pic {
+  margin-left: 30%;
+}
+
+.my_photo-cv {
+  width: 180px;
+  height: auto;
+}
+
+.skills-links {
+  color: var(--color5);
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 20px;
+}
+
+.skills-li {
+  padding: 5px;
+}
+
+.introduction-expirience {
+  color: var(--color5);
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 20px;
+}
